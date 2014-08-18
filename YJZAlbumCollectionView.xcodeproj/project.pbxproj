@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BFF139619A1A00400438517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139519A1A00400438517 /* Foundation.framework */; };
+		9BFF139819A1A00400438517 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139719A1A00400438517 /* CoreGraphics.framework */; };
+		9BFF139A19A1A00400438517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139919A1A00400438517 /* UIKit.framework */; };
+		9BFF13A019A1A00400438517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF139E19A1A00400438517 /* InfoPlist.strings */; };
+		9BFF13A219A1A00400438517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF13A119A1A00400438517 /* main.m */; };
+		9BFF13A619A1A00400438517 /* YJZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF13A519A1A00400438517 /* YJZAppDelegate.m */; };
+		9BFF13A919A1A00400438517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF13A719A1A00400438517 /* Main.storyboard */; };
+		9BFF13AC19A1A00400438517 /* YJZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF13AB19A1A00400438517 /* YJZViewController.m */; };
+		9BFF13AE19A1A00400438517 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF13AD19A1A00400438517 /* Images.xcassets */; };
+		9BFF13B519A1A00400438517 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF13B419A1A00400438517 /* XCTest.framework */; };
+		9BFF13B619A1A00400438517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139519A1A00400438517 /* Foundation.framework */; };
+		9BFF13B719A1A00400438517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139919A1A00400438517 /* UIKit.framework */; };
+		9BFF13BF19A1A00400438517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF13BD19A1A00400438517 /* InfoPlist.strings */; };
+		9BFF13C119A1A00400438517 /* YJZAlbumCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF13C019A1A00400438517 /* YJZAlbumCollectionViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BFF13B819A1A00400438517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BFF138A19A1A00400438517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFF139119A1A00400438517;
+			remoteInfo = YJZAlbumCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BFF139219A1A00400438517 /* YJZAlbumCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJZAlbumCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFF139519A1A00400438517 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BFF139719A1A00400438517 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BFF139919A1A00400438517 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BFF139D19A1A00400438517 /* YJZAlbumCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YJZAlbumCollectionView-Info.plist"; sourceTree = "<group>"; };
+		9BFF139F19A1A00400438517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BFF13A119A1A00400438517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BFF13A319A1A00400438517 /* YJZAlbumCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJZAlbumCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		9BFF13A419A1A00400438517 /* YJZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJZAppDelegate.h; sourceTree = "<group>"; };
+		9BFF13A519A1A00400438517 /* YJZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJZAppDelegate.m; sourceTree = "<group>"; };
+		9BFF13A819A1A00400438517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BFF13AA19A1A00400438517 /* YJZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJZViewController.h; sourceTree = "<group>"; };
+		9BFF13AB19A1A00400438517 /* YJZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJZViewController.m; sourceTree = "<group>"; };
+		9BFF13AD19A1A00400438517 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BFF13B319A1A00400438517 /* YJZAlbumCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJZAlbumCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFF13B419A1A00400438517 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9BFF13BC19A1A00400438517 /* YJZAlbumCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YJZAlbumCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
+		9BFF13BE19A1A00400438517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BFF13C019A1A00400438517 /* YJZAlbumCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJZAlbumCollectionViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BFF138F19A1A00400438517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF139819A1A00400438517 /* CoreGraphics.framework in Frameworks */,
+				9BFF139A19A1A00400438517 /* UIKit.framework in Frameworks */,
+				9BFF139619A1A00400438517 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFF13B019A1A00400438517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF13B519A1A00400438517 /* XCTest.framework in Frameworks */,
+				9BFF13B719A1A00400438517 /* UIKit.framework in Frameworks */,
+				9BFF13B619A1A00400438517 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BFF138919A1A00400438517 = {
+			isa = PBXGroup;
+			children = (
+				9BFF139B19A1A00400438517 /* YJZAlbumCollectionView */,
+				9BFF13BA19A1A00400438517 /* YJZAlbumCollectionViewTests */,
+				9BFF139419A1A00400438517 /* Frameworks */,
+				9BFF139319A1A00400438517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BFF139319A1A00400438517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF139219A1A00400438517 /* YJZAlbumCollectionView.app */,
+				9BFF13B319A1A00400438517 /* YJZAlbumCollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFF139419A1A00400438517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF139519A1A00400438517 /* Foundation.framework */,
+				9BFF139719A1A00400438517 /* CoreGraphics.framework */,
+				9BFF139919A1A00400438517 /* UIKit.framework */,
+				9BFF13B419A1A00400438517 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BFF139B19A1A00400438517 /* YJZAlbumCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF13A419A1A00400438517 /* YJZAppDelegate.h */,
+				9BFF13A519A1A00400438517 /* YJZAppDelegate.m */,
+				9BFF13A719A1A00400438517 /* Main.storyboard */,
+				9BFF13AA19A1A00400438517 /* YJZViewController.h */,
+				9BFF13AB19A1A00400438517 /* YJZViewController.m */,
+				9BFF13AD19A1A00400438517 /* Images.xcassets */,
+				9BFF139C19A1A00400438517 /* Supporting Files */,
+			);
+			path = YJZAlbumCollectionView;
+			sourceTree = "<group>";
+		};
+		9BFF139C19A1A00400438517 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF139D19A1A00400438517 /* YJZAlbumCollectionView-Info.plist */,
+				9BFF139E19A1A00400438517 /* InfoPlist.strings */,
+				9BFF13A119A1A00400438517 /* main.m */,
+				9BFF13A319A1A00400438517 /* YJZAlbumCollectionView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BFF13BA19A1A00400438517 /* YJZAlbumCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF13C019A1A00400438517 /* YJZAlbumCollectionViewTests.m */,
+				9BFF13BB19A1A00400438517 /* Supporting Files */,
+			);
+			path = YJZAlbumCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		9BFF13BB19A1A00400438517 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF13BC19A1A00400438517 /* YJZAlbumCollectionViewTests-Info.plist */,
+				9BFF13BD19A1A00400438517 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BFF139119A1A00400438517 /* YJZAlbumCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFF13C419A1A00400438517 /* Build configuration list for PBXNativeTarget "YJZAlbumCollectionView" */;
+			buildPhases = (
+				9BFF138E19A1A00400438517 /* Sources */,
+				9BFF138F19A1A00400438517 /* Frameworks */,
+				9BFF139019A1A00400438517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJZAlbumCollectionView;
+			productName = YJZAlbumCollectionView;
+			productReference = 9BFF139219A1A00400438517 /* YJZAlbumCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BFF13B219A1A00400438517 /* YJZAlbumCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFF13C719A1A00400438517 /* Build configuration list for PBXNativeTarget "YJZAlbumCollectionViewTests" */;
+			buildPhases = (
+				9BFF13AF19A1A00400438517 /* Sources */,
+				9BFF13B019A1A00400438517 /* Frameworks */,
+				9BFF13B119A1A00400438517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BFF13B919A1A00400438517 /* PBXTargetDependency */,
+			);
+			name = YJZAlbumCollectionViewTests;
+			productName = YJZAlbumCollectionViewTests;
+			productReference = 9BFF13B319A1A00400438517 /* YJZAlbumCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BFF138A19A1A00400438517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YJZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "YU JOHNNY ZHOU";
+				TargetAttributes = {
+					9BFF13B219A1A00400438517 = {
+						TestTargetID = 9BFF139119A1A00400438517;
+					};
+				};
+			};
+			buildConfigurationList = 9BFF138D19A1A00400438517 /* Build configuration list for PBXProject "YJZAlbumCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BFF138919A1A00400438517;
+			productRefGroup = 9BFF139319A1A00400438517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFF139119A1A00400438517 /* YJZAlbumCollectionView */,
+				9BFF13B219A1A00400438517 /* YJZAlbumCollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BFF139019A1A00400438517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF13AE19A1A00400438517 /* Images.xcassets in Resources */,
+				9BFF13A019A1A00400438517 /* InfoPlist.strings in Resources */,
+				9BFF13A919A1A00400438517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFF13B119A1A00400438517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF13BF19A1A00400438517 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BFF138E19A1A00400438517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF13A619A1A00400438517 /* YJZAppDelegate.m in Sources */,
+				9BFF13AC19A1A00400438517 /* YJZViewController.m in Sources */,
+				9BFF13A219A1A00400438517 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFF13AF19A1A00400438517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF13C119A1A00400438517 /* YJZAlbumCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BFF13B919A1A00400438517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BFF139119A1A00400438517 /* YJZAlbumCollectionView */;
+			targetProxy = 9BFF13B819A1A00400438517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BFF139E19A1A00400438517 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFF139F19A1A00400438517 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BFF13A719A1A00400438517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFF13A819A1A00400438517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BFF13BD19A1A00400438517 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFF13BE19A1A00400438517 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BFF13C219A1A00400438517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BFF13C319A1A00400438517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BFF13C519A1A00400438517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJZAlbumCollectionView/YJZAlbumCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "YJZAlbumCollectionView/YJZAlbumCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BFF13C619A1A00400438517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJZAlbumCollectionView/YJZAlbumCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "YJZAlbumCollectionView/YJZAlbumCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9BFF13C819A1A00400438517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YJZAlbumCollectionView.app/YJZAlbumCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJZAlbumCollectionView/YJZAlbumCollectionView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YJZAlbumCollectionViewTests/YJZAlbumCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9BFF13C919A1A00400438517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YJZAlbumCollectionView.app/YJZAlbumCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJZAlbumCollectionView/YJZAlbumCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "YJZAlbumCollectionViewTests/YJZAlbumCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BFF138D19A1A00400438517 /* Build configuration list for PBXProject "YJZAlbumCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFF13C219A1A00400438517 /* Debug */,
+				9BFF13C319A1A00400438517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFF13C419A1A00400438517 /* Build configuration list for PBXNativeTarget "YJZAlbumCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFF13C519A1A00400438517 /* Debug */,
+				9BFF13C619A1A00400438517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BFF13C719A1A00400438517 /* Build configuration list for PBXNativeTarget "YJZAlbumCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFF13C819A1A00400438517 /* Debug */,
+				9BFF13C919A1A00400438517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BFF138A19A1A00400438517 /* Project object */;
+}

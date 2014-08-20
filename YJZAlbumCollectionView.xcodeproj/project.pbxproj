@@ -21,6 +21,7 @@
 		9BFF13B719A1A00400438517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139919A1A00400438517 /* UIKit.framework */; };
 		9BFF13BF19A1A00400438517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF13BD19A1A00400438517 /* InfoPlist.strings */; };
 		9BFF13C119A1A00400438517 /* YJZAlbumCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF13C019A1A00400438517 /* YJZAlbumCollectionViewTests.m */; };
+		9BFF13CC19A1A03900438517 /* YJZAlbumCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF13CB19A1A03900438517 /* YJZAlbumCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9BFF13BC19A1A00400438517 /* YJZAlbumCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YJZAlbumCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		9BFF13BE19A1A00400438517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BFF13C019A1A00400438517 /* YJZAlbumCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJZAlbumCollectionViewTests.m; sourceTree = "<group>"; };
+		9BFF13CA19A1A03900438517 /* YJZAlbumCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJZAlbumCollectionViewLayout.h; sourceTree = "<group>"; };
+		9BFF13CB19A1A03900438517 /* YJZAlbumCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJZAlbumCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				9BFF13AB19A1A00400438517 /* YJZViewController.m */,
 				9BFF13AD19A1A00400438517 /* Images.xcassets */,
 				9BFF139C19A1A00400438517 /* Supporting Files */,
+				9BFF13CA19A1A03900438517 /* YJZAlbumCollectionViewLayout.h */,
+				9BFF13CB19A1A03900438517 /* YJZAlbumCollectionViewLayout.m */,
 			);
 			path = YJZAlbumCollectionView;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFF13CC19A1A03900438517 /* YJZAlbumCollectionViewLayout.m in Sources */,
 				9BFF13A619A1A00400438517 /* YJZAppDelegate.m in Sources */,
 				9BFF13AC19A1A00400438517 /* YJZViewController.m in Sources */,
 				9BFF13A219A1A00400438517 /* main.m in Sources */,

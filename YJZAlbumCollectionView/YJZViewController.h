@@ -10,4 +10,6 @@
 
 @interface YJZViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+
 @end

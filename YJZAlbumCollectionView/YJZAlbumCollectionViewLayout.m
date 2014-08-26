@@ -28,6 +28,7 @@
 @property (nonatomic) NSMutableDictionary *layouts;
 
 @property (nonatomic) CGFloat bottomline;
+@property (nonatomic) CGFloat viewHeight;
 
 /**
  placedIndexPath structure :
@@ -67,6 +68,7 @@
     _placedIndexPath = [NSMutableDictionary dictionary];
     _lastIndexPathPlaced = nil;
     _bottomline = 0.f;
+    _viewHeight = 0.f;
     _beforePrepareLayout = NO;
     
     if (!_layouts) {
@@ -116,7 +118,7 @@
 
 - (void) prepareLayout {
     [super prepareLayout];
-    NSLog(@"%@",_layouts);
+    
     NSIndexPath *lastCellIndexPath = nil;
     
     _beforePrepareLayout = YES;
@@ -133,7 +135,8 @@
 }
 
 - (CGSize) collectionViewContentSize {
-    return CGSizeMake([[_layouts valueForKey:@"maxWidth"] floatValue], _bottomline);
+    NSLog(@"1 %@",[NSValue valueWithCGSize: CGSizeMake([[_layouts valueForKey:@"maxWidth"] floatValue], _viewHeight)]);
+    return CGSizeMake([[_layouts valueForKey:@"maxWidth"] floatValue], _viewHeight);
 }
 
 - (NSArray *) layoutAttributesForElementsInRect:(CGRect)rect {
@@ -254,6 +257,10 @@
     NSMutableArray *avaiable = [layout valueForKey:@"available"];
     NSMutableArray *filled = [layout valueForKey:@"filled"];
     
+    if ([filled count] == 0) {
+        _viewHeight += [[layout valueForKey:@"rowHeight"] floatValue];
+    }
+    
     CGRect selectedLayout = [[avaiable objectAtIndex:0] CGRectValue];
     [avaiable removeObjectAtIndex:0];
     //NSLog(@"%@", NSStringFromCGRect(selectedLayout));
@@ -306,6 +313,7 @@
 - (void) resetPosition {
     _lastIndexPathPlaced = nil;
     _bottomline = 0.f;
+    _viewHeight = 0.f;
     _placedIndexPath = [NSMutableDictionary dictionary];
 }
 

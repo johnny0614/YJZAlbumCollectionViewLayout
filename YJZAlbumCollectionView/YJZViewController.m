@@ -9,7 +9,7 @@
 #import "YJZViewController.h"
 #import "YJZAlbumCollectionViewLayout.h"
 
-@interface YJZViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
+@interface YJZViewController () <UICollectionViewDelegate, UICollectionViewDataSource, YJZAlbumCollectionViewDelegate>
 
 @property (nonatomic) NSMutableArray* numbers;
 
@@ -26,15 +26,24 @@ int num = 0;
     [self datasInit];
 	// Do any additional setup after loading the view, typically from a nib.
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
-    [self.view addSubview:self.collectionView];
+    YJZAlbumCollectionViewLayout* layout = (id)[self.collectionView collectionViewLayout];
+    layout.delegate = self;
+    self.collectionView.dataSource = self;
+    self.collectionView.delegate = self;
+    NSLog(@"viewDidLoad");
     
     [self.collectionView reloadData];
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSLog(@"%@", [NSValue valueWithCGRect:self.collectionView.frame]);
 }
 
 - (void)datasInit {
     num = 0;
     self.numbers = [@[] mutableCopy];
-    for(; num<15; num++) {
+    for(; num<20; num++) {
         [self.numbers addObject:@(num)];
     }
     
@@ -54,6 +63,12 @@ int num = 0;
     
 }
 
+#pragma mark - YJZAlbumCollectonViewLayoutDelegate
+
+- (UIEdgeInsets) insetsForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return UIEdgeInsetsMake(2.f, 2.f, 2.f, 2.f);
+}
+
 #pragma mark - UICollectionView Datasource
 
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section {
@@ -64,6 +79,7 @@ int num = 0;
     UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     cell.backgroundColor = [self colorForNumber:self.numbers[indexPath.row]];
     
+    NSLog(@"%@", [NSValue valueWithCGSize: cell.frame.size]);
     
     return cell;
 }

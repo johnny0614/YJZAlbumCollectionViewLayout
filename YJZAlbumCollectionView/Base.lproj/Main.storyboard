@@ -26,7 +26,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="collectionView" destination="duM-RP-oBT" id="XgO-q6-I6E"/>
+                        <outlet property="collectionView" destination="duM-RP-oBT" id="oPN-b8-JDs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

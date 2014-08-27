@@ -27,23 +27,28 @@ int num = 0;
 	// Do any additional setup after loading the view, typically from a nib.
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
     YJZAlbumCollectionViewLayout* layout = (id)[self.collectionView collectionViewLayout];
+    
+    [layout clearLayout];
+    [layout addLayoutWithRowWidth:320.f rowHeight:100.f layouts:@[[NSValue valueWithCGRect:CGRectMake(0.f, 0.f, 80.f, 100.f)],[NSValue valueWithCGRect:CGRectMake(80.f, 0.f, 80.f, 100.f)],[NSValue valueWithCGRect:CGRectMake(160.f, 0.f, 80.f, 100.f)],[NSValue valueWithCGRect:CGRectMake(240.f, 0.f, 80.f, 100.f)]]];
+    
+    [layout addLayoutWithRowWidth:320.f rowHeight:100.f layouts:@[[NSValue valueWithCGRect:CGRectMake(0.f, 0.f, 160.f, 100.f)],[NSValue valueWithCGRect:CGRectMake(160.f, 0.f, 80.f, 50.f)],[NSValue valueWithCGRect:CGRectMake(240.f, 0.f, 80.f, 50.f)],[NSValue valueWithCGRect:CGRectMake(160.f, 50.f, 80.f, 50.f)],[NSValue valueWithCGRect:CGRectMake(240.f, 50.f, 80.f, 50.f)]]];
+    
     layout.delegate = self;
     self.collectionView.dataSource = self;
     self.collectionView.delegate = self;
-    NSLog(@"viewDidLoad");
+    
     
     [self.collectionView reloadData];
 }
 
 - (void) viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    NSLog(@"%@", [NSValue valueWithCGRect:self.collectionView.frame]);
 }
 
 - (void)datasInit {
     num = 0;
     self.numbers = [@[] mutableCopy];
-    for(; num<20; num++) {
+    for(; num<30; num++) {
         [self.numbers addObject:@(num)];
     }
     
@@ -78,9 +83,7 @@ int num = 0;
 - (UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     cell.backgroundColor = [self colorForNumber:self.numbers[indexPath.row]];
-    
-    NSLog(@"%@", [NSValue valueWithCGSize: cell.frame.size]);
-    
+        
     return cell;
 }
 

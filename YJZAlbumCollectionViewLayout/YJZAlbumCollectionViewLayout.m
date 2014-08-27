@@ -136,7 +136,6 @@
 }
 
 - (CGSize) collectionViewContentSize {
-    NSLog(@"1 %@",[NSValue valueWithCGSize: CGSizeMake([[_layouts valueForKey:@"maxWidth"] floatValue], _viewHeight)]);
     return CGSizeMake([[_layouts valueForKey:@"maxWidth"] floatValue], _viewHeight);
 }
 

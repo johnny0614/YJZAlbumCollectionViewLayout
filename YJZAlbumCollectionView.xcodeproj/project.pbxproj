@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B17D77419AD5E1700E0C145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B17D76719AD5E1700E0C145 /* Main.storyboard */; };
-		9B17D77519AD5E1700E0C145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B17D76A19AD5E1700E0C145 /* InfoPlist.strings */; };
-		9B17D77619AD5E1700E0C145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B17D76C19AD5E1700E0C145 /* Images.xcassets */; };
-		9B17D77719AD5E1700E0C145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17D76D19AD5E1700E0C145 /* main.m */; };
-		9B17D77819AD5E1700E0C145 /* YJZAlbumCollectionView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B17D76E19AD5E1700E0C145 /* YJZAlbumCollectionView-Info.plist */; };
-		9B17D77919AD5E1700E0C145 /* YJZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17D77119AD5E1700E0C145 /* YJZAppDelegate.m */; };
-		9B17D77A19AD5E1700E0C145 /* YJZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17D77319AD5E1700E0C145 /* YJZViewController.m */; };
-		9B17D77D19AD5E2C00E0C145 /* YJZAlbumCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17D77C19AD5E2C00E0C145 /* YJZAlbumCollectionViewLayout.m */; };
+		9B21247F19AD632F00995C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B21247219AD632F00995C8B /* Main.storyboard */; };
+		9B21248019AD632F00995C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B21247519AD632F00995C8B /* InfoPlist.strings */; };
+		9B21248119AD632F00995C8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B21247719AD632F00995C8B /* Images.xcassets */; };
+		9B21248219AD632F00995C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B21247819AD632F00995C8B /* main.m */; };
+		9B21248319AD632F00995C8B /* YJZAlbumCollectionView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B21247919AD632F00995C8B /* YJZAlbumCollectionView-Info.plist */; };
+		9B21248419AD632F00995C8B /* YJZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B21247C19AD632F00995C8B /* YJZAppDelegate.m */; };
+		9B21248519AD632F00995C8B /* YJZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B21247E19AD632F00995C8B /* YJZViewController.m */; };
+		9B21248819AD633A00995C8B /* YJZAlbumCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B21248719AD633A00995C8B /* YJZAlbumCollectionViewLayout.m */; };
 		9BFF139619A1A00400438517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139519A1A00400438517 /* Foundation.framework */; };
 		9BFF139819A1A00400438517 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139719A1A00400438517 /* CoreGraphics.framework */; };
 		9BFF139A19A1A00400438517 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF139919A1A00400438517 /* UIKit.framework */; };
@@ -36,18 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B17D76819AD5E1700E0C145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		9B17D76B19AD5E1700E0C145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		9B17D76C19AD5E1700E0C145 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9B17D76D19AD5E1700E0C145 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B17D76E19AD5E1700E0C145 /* YJZAlbumCollectionView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YJZAlbumCollectionView-Info.plist"; sourceTree = "<group>"; };
-		9B17D76F19AD5E1700E0C145 /* YJZAlbumCollectionView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YJZAlbumCollectionView-Prefix.pch"; sourceTree = "<group>"; };
-		9B17D77019AD5E1700E0C145 /* YJZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJZAppDelegate.h; sourceTree = "<group>"; };
-		9B17D77119AD5E1700E0C145 /* YJZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJZAppDelegate.m; sourceTree = "<group>"; };
-		9B17D77219AD5E1700E0C145 /* YJZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJZViewController.h; sourceTree = "<group>"; };
-		9B17D77319AD5E1700E0C145 /* YJZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJZViewController.m; sourceTree = "<group>"; };
-		9B17D77B19AD5E2C00E0C145 /* YJZAlbumCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJZAlbumCollectionViewLayout.h; sourceTree = "<group>"; };
-		9B17D77C19AD5E2C00E0C145 /* YJZAlbumCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJZAlbumCollectionViewLayout.m; sourceTree = "<group>"; };
+		9B21247319AD632F00995C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		9B21247619AD632F00995C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		9B21247719AD632F00995C8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B21247819AD632F00995C8B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B21247919AD632F00995C8B /* YJZAlbumCollectionView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YJZAlbumCollectionView-Info.plist"; sourceTree = "<group>"; };
+		9B21247A19AD632F00995C8B /* YJZAlbumCollectionView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YJZAlbumCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		9B21247B19AD632F00995C8B /* YJZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJZAppDelegate.h; sourceTree = "<group>"; };
+		9B21247C19AD632F00995C8B /* YJZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJZAppDelegate.m; sourceTree = "<group>"; };
+		9B21247D19AD632F00995C8B /* YJZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJZViewController.h; sourceTree = "<group>"; };
+		9B21247E19AD632F00995C8B /* YJZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJZViewController.m; sourceTree = "<group>"; };
+		9B21248619AD633A00995C8B /* YJZAlbumCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJZAlbumCollectionViewLayout.h; sourceTree = "<group>"; };
+		9B21248719AD633A00995C8B /* YJZAlbumCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJZAlbumCollectionViewLayout.m; sourceTree = "<group>"; };
 		9BFF139219A1A00400438517 /* YJZAlbumCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJZAlbumCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFF139519A1A00400438517 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BFF139719A1A00400438517 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,8 +86,8 @@
 		9B14F17E19ACBFDF00DE6E87 /* YJZAlbumCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				9B17D77B19AD5E2C00E0C145 /* YJZAlbumCollectionViewLayout.h */,
-				9B17D77C19AD5E2C00E0C145 /* YJZAlbumCollectionViewLayout.m */,
+				9B21248619AD633A00995C8B /* YJZAlbumCollectionViewLayout.h */,
+				9B21248719AD633A00995C8B /* YJZAlbumCollectionViewLayout.m */,
 			);
 			path = YJZAlbumCollectionViewLayout;
 			sourceTree = "<group>";
@@ -95,32 +95,32 @@
 		9B14F17F19ACC03300DE6E87 /* YJZAlbumCollecionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9B17D76619AD5E1700E0C145 /* Base.lproj */,
-				9B17D76919AD5E1700E0C145 /* en.lproj */,
-				9B17D76C19AD5E1700E0C145 /* Images.xcassets */,
-				9B17D76D19AD5E1700E0C145 /* main.m */,
-				9B17D76E19AD5E1700E0C145 /* YJZAlbumCollectionView-Info.plist */,
-				9B17D76F19AD5E1700E0C145 /* YJZAlbumCollectionView-Prefix.pch */,
-				9B17D77019AD5E1700E0C145 /* YJZAppDelegate.h */,
-				9B17D77119AD5E1700E0C145 /* YJZAppDelegate.m */,
-				9B17D77219AD5E1700E0C145 /* YJZViewController.h */,
-				9B17D77319AD5E1700E0C145 /* YJZViewController.m */,
+				9B21247119AD632F00995C8B /* Base.lproj */,
+				9B21247419AD632F00995C8B /* en.lproj */,
+				9B21247719AD632F00995C8B /* Images.xcassets */,
+				9B21247819AD632F00995C8B /* main.m */,
+				9B21247919AD632F00995C8B /* YJZAlbumCollectionView-Info.plist */,
+				9B21247A19AD632F00995C8B /* YJZAlbumCollectionView-Prefix.pch */,
+				9B21247B19AD632F00995C8B /* YJZAppDelegate.h */,
+				9B21247C19AD632F00995C8B /* YJZAppDelegate.m */,
+				9B21247D19AD632F00995C8B /* YJZViewController.h */,
+				9B21247E19AD632F00995C8B /* YJZViewController.m */,
 			);
 			path = YJZAlbumCollecionViewDemo;
 			sourceTree = "<group>";
 		};
-		9B17D76619AD5E1700E0C145 /* Base.lproj */ = {
+		9B21247119AD632F00995C8B /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				9B17D76719AD5E1700E0C145 /* Main.storyboard */,
+				9B21247219AD632F00995C8B /* Main.storyboard */,
 			);
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		9B17D76919AD5E1700E0C145 /* en.lproj */ = {
+		9B21247419AD632F00995C8B /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				9B17D76A19AD5E1700E0C145 /* InfoPlist.strings */,
+				9B21247519AD632F00995C8B /* InfoPlist.strings */,
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
@@ -251,10 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B17D77619AD5E1700E0C145 /* Images.xcassets in Resources */,
-				9B17D77419AD5E1700E0C145 /* Main.storyboard in Resources */,
-				9B17D77519AD5E1700E0C145 /* InfoPlist.strings in Resources */,
-				9B17D77819AD5E1700E0C145 /* YJZAlbumCollectionView-Info.plist in Resources */,
+				9B21248119AD632F00995C8B /* Images.xcassets in Resources */,
+				9B21247F19AD632F00995C8B /* Main.storyboard in Resources */,
+				9B21248019AD632F00995C8B /* InfoPlist.strings in Resources */,
+				9B21248319AD632F00995C8B /* YJZAlbumCollectionView-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B17D77D19AD5E2C00E0C145 /* YJZAlbumCollectionViewLayout.m in Sources */,
-				9B17D77719AD5E1700E0C145 /* main.m in Sources */,
-				9B17D77919AD5E1700E0C145 /* YJZAppDelegate.m in Sources */,
-				9B17D77A19AD5E1700E0C145 /* YJZViewController.m in Sources */,
+				9B21248819AD633A00995C8B /* YJZAlbumCollectionViewLayout.m in Sources */,
+				9B21248419AD632F00995C8B /* YJZAppDelegate.m in Sources */,
+				9B21248519AD632F00995C8B /* YJZViewController.m in Sources */,
+				9B21248219AD632F00995C8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,18 +299,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9B17D76719AD5E1700E0C145 /* Main.storyboard */ = {
+		9B21247219AD632F00995C8B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B17D76819AD5E1700E0C145 /* Base */,
+				9B21247319AD632F00995C8B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9B17D76A19AD5E1700E0C145 /* InfoPlist.strings */ = {
+		9B21247519AD632F00995C8B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B17D76B19AD5E1700E0C145 /* en */,
+				9B21247619AD632F00995C8B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -403,7 +403,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJZAlbumCollectionView/YJZAlbumCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "YJZAlbumCollectionView/YJZAlbumCollectionView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/YJZAlbumCollecionViewDemo/YJZAlbumCollectionView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,7 +416,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJZAlbumCollectionView/YJZAlbumCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "YJZAlbumCollectionView/YJZAlbumCollectionView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/YJZAlbumCollecionViewDemo/YJZAlbumCollectionView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
